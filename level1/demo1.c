@@ -28,7 +28,7 @@ int find_max_index(int n,float arr[])
 }
 void output(float arr[],int max_index)
 {
-    printf("The maximum number is %f at %d",arr[max_index],max_index);
+    printf("The maximum number is %f at index %d",arr[max_index],max_index);
 }
 int main()
 {
