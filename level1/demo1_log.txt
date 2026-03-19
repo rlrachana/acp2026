@@ -1,0 +1,7 @@
+Breakpoint 1, main () at demo1.c:37
+37	    input(&n,arr);
+38	    if(n<=0)
+42	    max_index=find_max_index(n,arr);
+43	    output(arr,max_index);
+$1 = 2
+#0  main () at demo1.c:43
