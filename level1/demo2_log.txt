@@ -1,0 +1,41 @@
+Breakpoint 1 at 0x401514: file demo2.c, line 19.
+Starting program: C:\Users\Rachana\Desktop\acp2026\level1/demo2.exe 
+[New Thread 24284.0x2a70]
+[New Thread 24284.0x5b88]
+Enter the details of Rectangle 1:
+Enter length:5
+Enter width:2
+Enter the details of Rectangle 2:
+Enter length:9
+Enter width:7
+Enter the details of Rectangle 3:
+Enter length:3
+Enter width:2
+
+Breakpoint 1, calculate_area (rect=...) at demo2.c:19
+19              rect.area=rect.length*rect.width;
+(gdb) print rect.length
+$1 = 5
+(gdb) print rect.width
+$2 = 2
+(gdb) c
+Continuing.
+
+Breakpoint 1, calculate_area (rect=...) at demo2.c:19
+19              rect.area=rect.length*rect.width;
+(gdb) print rect.length
+$3 = 9
+(gdb) print rect.width
+$4 = 7
+(gdb) c
+Continuing.
+
+Breakpoint 1, calculate_area (rect=...) at demo2.c:19
+19              rect.area=rect.length*rect.width;
+(gdb) print rect.length
+$5 = 3
+(gdb) print rect.width
+$6 = 2
+(gdb) c
+Continuing.
+Rectangle 2 has the largest area[Inferior 1 (process 24284) exited normally]
