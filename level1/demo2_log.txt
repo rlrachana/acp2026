@@ -38,4 +38,25 @@ $5 = 3
 $6 = 2
 (gdb) c
 Continuing.
-Rectangle 2 has the largest area[Inferior 1 (process 24284) exited normally]
+Rectangle 2 has the largest area[Inferior 1 (process 24284) exited normally]Breakpoint 1 at 0x4016e0: file demo2.c, line 57.
+Starting program: C:\Users\Rachana\Desktop\acp2026\level1/demo2.exe 
+[New Thread 8004.0x84ec]
+[New Thread 8004.0x1aac]
+
+Breakpoint 1, main () at demo2.c:57
+57		printf("Enter the details of Rectangle 1:\n");
+58		r1=input();
+59		printf("Enter the details of Rectangle 2:\n");
+60		r2=input();
+61		printf("Enter the details of Rectangle 3:\n");
+62		r3=input();
+63		r1.area=calculate_area(r1);
+64		r2.area=calculate_area(r2);
+65		r3.area=calculate_area(r3);
+66		compare_areas(r1,r2,r3);
+67		return 0;
+A debugging session is active.
+
+	Inferior 1 [process 8004] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
