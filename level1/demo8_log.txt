@@ -1,0 +1,15 @@
+Breakpoint 1 at 0x4014c4: file demo8.c, line 18.
+The program is not being run.
+Starting program: C:\Users\Rachana\Desktop\acp2026\level1/demo8.exe 
+[New Thread 18484.0x9da0]
+[New Thread 18484.0x910c]
+
+Breakpoint 1, main () at demo8.c:18
+18	    printf("Enter string1:");
+19	    input(str1);
+20	    printf("Enter string2:");
+21	    input(str2);
+22	    concatenate_strings(str1,str2);
+23	    display(str1);
+24	    return 0;
+25	A debugging session is active.
