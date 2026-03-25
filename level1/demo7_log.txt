@@ -1,0 +1,17 @@
+BBreakpoint 1 at 0x40155b: file demo7.c, line 34.
+(gdb) next
+The program is not being run.
+(gdb) run
+Starting program: C:\Users\Rachana\Desktop\acp2026\level1/demo7.exe 
+[New Thread 6260.0x6a48]
+[New Thread 6260.0x3e0]
+
+Breakpoint 1, main () at demo7.c:34
+34          inputStrings(str1,str2);
+(gdb) next
+Enter string 1:apple
+Enter string 2:peach
+35          int result=compareStrings(str1,str2);
+(gdb) continue
+Continuing.
+String 2 is lexicographically greater than String 1[Inferior 1 (process 6260) exited normally]

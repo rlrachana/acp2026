@@ -8,10 +8,11 @@ void input(int *n,float arr[])
         printf("Invalid value of n");
         return ;
     }
-    printf("Enter %d values:",*n);
+    printf("Enter %d values:\n",*n);
     for(int i=0;i<*n;i++)
     {
-    scanf("%f",&arr[i]);
+        printf("Enter the element at %d:",i+1);
+        scanf("%f",&arr[i]);
     }
 }
 int find_max_index(int n,float arr[])
@@ -28,7 +29,7 @@ int find_max_index(int n,float arr[])
 }
 void output(float arr[],int max_index)
 {
-    printf("The maximum number is %f at index %d",arr[max_index],max_index);
+    printf("The maximum number is %f at index %d\n",arr[max_index],max_index);
 }
 int main()
 {
