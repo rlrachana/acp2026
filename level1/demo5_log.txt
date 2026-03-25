@@ -1,0 +1,23 @@
+Breakpoint 1 at 0x4015f9: file demo5.c, line 32.
+Starting program: C:\Users\Rachana\Desktop\acp2026\level1/demo5.exe 
+[New Thread 2752.0x8ef4]
+[New Thread 2752.0x6fb0]
+
+Breakpoint 1, 0x004015f9 in main () at demo5.c:32
+32	{
+34	    printf("Enter the total number of values in the array:");
+35	    scanf("%d",&n);
+36	    int a[n],b[n];
+37	    printf("Enter %d values for array1:\n",n);
+38	    read_array(n,a);
+39	    printf("Enter %d values for array2:\n",n);
+40	    read_array(n,b);
+Undefined command: "6".  Try "help".
+41	    printf("Arrays before swapping:\n");
+42	    printf("Array1:");
+43	    print_array(n,a);
+44	    printf("\nArray2:");
+45	    print_array(n,b);
+46	    swap_array(n,a,b);
+48	    return 0;
+49	}A debugging session is active.
