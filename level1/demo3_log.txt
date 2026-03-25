@@ -1,0 +1,16 @@
+Breakpoint 1 at 0x40160f: file demo3.c, line 42.
+Starting program: C:\Users\Rachana\Desktop\acp2026\level1/demo3.exe 
+[New Thread 4288.0x9f90]
+[New Thread 4288.0x87d0]
+
+Breakpoint 1, 0x0040160f in main () at demo3.c:42
+42	{
+44	    printf("Enter the total number of rectangles:");
+45	    scanf("%d",&n);
+46	    Rectangle r[n];
+47	    input(n,r);
+48	    calculate_area(n,r);
+49	    index = findLargestArea(n,r);
+50	    output(index,r);
+51	    return 0;
+52	}A debugging session is active.
