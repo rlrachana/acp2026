@@ -1,0 +1,17 @@
+Breakpoint 1 at 0x401479: file demo4.c, line 15.
+Starting program: C:\Users\Rachana\Desktop\acp2026\level1/demo4.exe 
+[New Thread 26120.0x85d0]
+[New Thread 26120.0x78c4]
+
+Breakpoint 1, 0x00401479 in main () at demo4.c:15
+15	{
+18	    n=4;
+20	    Flight flights[n];
+21	    int result[n];
+23	    input_flights(n,flights);
+25	    printf("\nEnter destination to search: ");
+26	    scanf("%s",dest);
+28	    count=search_flights(n,flights,dest,result);
+29	    display(count,result,flights);
+30	    return 0;
+31	}
