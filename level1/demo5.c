@@ -15,12 +15,12 @@ void print_array(int n, int arr[])
 }
 void swap_array(int n, int a[n], int b[n])
 {
-    int temp[n];
+    int temp;
     for(int i=0;i<n;i++)
     {
-    temp[i]=a[i];
+    temp=a[i];
     a[i]=b[i];
-    b[i]=temp[i];
+    b[i]=temp;
     }
     printf("\nArrays after swapping:\n");
     printf("Array1:");
